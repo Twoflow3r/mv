@@ -1,0 +1,305 @@
+@import "./partials/normalize";
+@import "./partials/variables";
+@import "./partials/iconfont";
+@import "./partials/sprite";
+@import "./bootstrap/bootstrap";
+@import "./partials/private";
+@import "./partials/media";
+
+
+h1, h2, h3, h4, p {
+    padding: 0;
+    margin: 0;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+body {
+    background: $primary-color;
+    font-size: 14px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.block-footer__logo {
+    width: 118px;
+    height: 40px;
+}
+
+.block-footer__phone {
+    font-family: Roboto;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #4a4a4a;
+}
+.block-footer__takeda img {
+    width: 49.6px;
+  height: 49.6px;
+}
+
+.block-footer  {
+    background-color: #e2e2e2;
+   padding: 45px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.firstmed-icon-privat img{
+    width: 160px;
+    height: 40px;
+}
+
+.header-banner {
+    background-image: url(../img/kv-brtmr-vrfrn-1200-x-600@2x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 88vh;
+    min-height: 500px;
+}
+.login-place {
+    padding-top: 46px;
+    height: 10em;
+    position: relative;
+}
+.login-link {
+    font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008188;
+  padding-left: 20px;
+  position: absolute;
+    top: 50%;
+    left: 90px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.login-img {
+    width: 43px;
+  height: 43px;
+}
+.curator-block {
+    border-radius: 8px;
+    border: solid 2px #252761;
+}
+.curator-photo {
+    padding-top: 50px;
+}
+.curator {
+    font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #9b9b9b;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  display: inline-block;
+}
+.curator-name {
+    font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #252761;
+  padding-bottom: 12px;
+}
+.curator-info {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+    color: #252761;
+    margin-bottom: 50px;
+}
+.calling-to-registration {
+    margin-top: 50px;
+}
+.centered-svg {
+    margin-left: 35%;
+    padding-top: 20px;
+}
+.centered-svg-pencil {
+    margin-left: 32%;
+    padding-top: 10px;
+}
+.get-info-block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 0.1px;
+    color: #189d9f;
+    text-align: center;
+}
+.get-info-block h2{
+    font-size: 24px;
+}
+.registration-button {
+    width: 400px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: #da0f7a;
+  text-align: center;
+}
+.registration-button a {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 70px;
+    letter-spacing: normal;
+    
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.registration-button:hover {
+    background-color: #da0f7ab8;
+}
+.main-content-border_box {
+    margin: 0 auto;
+    max-width: 1080px;
+    border-radius: 8px;
+    border: Inside, 3px,#252761;
+}
+
+.block-top-ivite__logo {
+    width: 110px ;
+  height: 24px;
+}
+
+
+.reclam-content {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    color: #252761;
+    margin-top: 105px;
+}
+.reclam-content:nth-child(2) {
+    margin-top: 115px;
+}
+.reclam-content:nth-child(3) {
+    margin-top: 130px;
+}
+.reclam-content:last-child {
+    margin-top: 100px;
+}
+
+.invite-footer_textbot {
+    opacity: 0.5;
+  font-family: TrebuchetMS;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #4a4a4a;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.invite-footer_text {
+    padding-top: 44px;
+    padding-left: 30px;
+    padding-bottom: 6px;
+    font-family: TrebuchetMS;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    color: #4a4a4a;
+}
+
+form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+label {
+    font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #9b9b9b;
+}
+input {
+    max-width: 560px;
+    width: 560px;
+  height: 50px;
+}
+
+#button-registration {
+    max-width: 400px;
+    width: 400px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: #da0f7a;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+#button-registration:hover {
+    background-color: #da0f7ab8;
+}
+.form-group {
+    padding-top: 30px; 
+}
+
+
+.footer {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative
+}
+
